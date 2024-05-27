@@ -5,3 +5,25 @@
 body {
   background-color: lightblue;
 }
+
+:root{font-size: 20px;}
+
+.tittle__big{
+  font-size: 40px;
+ text-align: center;
+}
+
+.calc{
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+ justify-content: center;
+ 
+}
+.btn{
+  font-size: 30px;
+}
+.display{
+  grid-column: span 3;
+  font-size: 20px;
+ text-align: right ;
+}
